@@ -3,8 +3,8 @@ const message = '새글 알림'+'\u200b'.repeat(500)+'\n';
 const KEY = 'Vj4jD4n5lUf9g2I0y7QyilPDPiiusHJb5kTdZDV7b2UUARhPFXPxPdRXtgK3Ej8k';
 const LoadingCycle = 1000;//불러오는 주기 ms단위(1초 == 1000ms)
 const CafeNum = 29537083;
-const Room = "Hibot 실험방";
-const KTPackage = "com.kakao.talc";//카카오톡 패키지 명
+const Room = 'Hibot 실험방';
+const KTPackage = 'com.kakao.talc';//카카오톡 패키지 명
 let looper, articleNum;
 /**
  * @param mac 앞에서 얻은 javax.crypto.Mac
