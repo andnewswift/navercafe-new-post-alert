@@ -7,7 +7,6 @@ const Room = 'Hibot 실험방';
 const KTPackage = 'com.kakao.tala';//카카오톡 패키지 명
 let looper, articleNum;
 /**
- * @param mac 앞에서 얻은 javax.crypto.Mac
  * @param url 원본 Api url(md, msgpad없이)
  * @param time unix timestemp로 된 시간
  * @returns String md와 msgpad가 추가된 url
