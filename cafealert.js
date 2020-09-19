@@ -27,7 +27,7 @@ looper = setInterval(() => {
         if(0 + response.select('article:first-child > articleid').text() > articleNum){
             articles.forEach(element => {
                 if(0 + element.select('articleid').text() <= articleNum) return;
-                a += '게시판: ' + org.jsoup.parser.Parser.unescapeEntities(element.select('subject').text(), true) + '\n';
+                a += '게시판: ' + org.jsoup.parser.Parser.unescapeEntities(element.select('menuname').text(), true) + '\n';
                 a += '제목: ' + org.jsoup.parser.Parser.unescapeEntities(element.select('subject').text(), true) + '\n';
                 a += '닉네임: ' + org.jsoup.parser.Parser.unescapeEntities(element.select('nickname').text(), true) + '\n';
                 a += '아이디: ' + org.jsoup.parser.Parser.unescapeEntities(element.select('writerid').text(), true) + '\n';
